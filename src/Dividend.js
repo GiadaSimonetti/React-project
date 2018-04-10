@@ -1,6 +1,9 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Dividend = () => {
-  return <div>Dividend Component</div>;
-};
+class Dividend extends Component {
+  render() {
+    return <div>Dividend Component</div>;
+  }
+}
+
 export default Dividend;
